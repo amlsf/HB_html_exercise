@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>
+            My page
+        </title>
+        <style type="text/css">
+/*    selector{
+        rule: value;
+        rule: value;
+        }
+*/        h1 {
+            font-family: arial;
+            color: #000088;
+            background-color: rgba(200,255,200,0.5);
+        }
+        #mr_snuggles {
+        border: solid blue 10px
+        }
+        .catbox{
+            border:1px solid red;
+            float:left;
+            padding: 100px 25px 100px 25px;
+            margin-right: 50px;
+            background-color:rgba(100,200,50,0.5);
+        }
+        .twitter-timeline{
+            float:left;
+            padding-right: 25px;
+        }
+        body{
+            background-image: url("bluebkd.jpeg");
+        }
+        form {
+            /* Just to center the form on the page */
+            margin: 0 auto;
+            width: 400px;
+            /* To see the outline of the form */
+            padding: 1em;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+        }
+        </style>
+    </head>
+
+
+    <body>
+        <form action="/some_webpage" method="GET">
+            Name: <input type="text" name="user_name">
+            Email: <input type="text" name="user_email">
+            Hometown: <input type="text" name="user_hometown">
+            Do you like bunnies?: Yes <input type="radio" name="user_bunny_preference" value="yes"> No<input type="radio" name="user_bunny_preference" value="no">
+            <div class="button">
+            <button type="submit">Send your message</button>
+    </div>
+        </form>
+
+        <h1>
+            This is a header - the biggest one
+        </h1>
+        <p> 
+            This is a paragraph Hello Monica
+        </p>
+        <ul>
+            <li>This is a list item</li>
+            <li>And here is another</li>
+            <li>Fish</li>
+        </ul>
+
+        <a class="twitter-timeline" href="https://twitter.com/monica_t_yun" data-widget-id="438038320388382721">Tweets by @monica_t_yun</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>  
+
+        <div class="catbox">
+            <p>Mister Ms Von Cuten</p>
+        </div>
+
+       <div class="catbox">
+            <p>Mister Snuggles </p>
+        </div>
+
+        <div class="catbox"> 
+            <p>Professor Buttonsworth</p>
+        </div> 
+
+            
+   
+    </body>
+</html>
